@@ -12,13 +12,13 @@ a {
     display: inline;
     color: black;
 }
-/* .home-body {
+.home-body {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-} */
+}
 .grid-container {
     max-width: 980px;
     margin: auto;
@@ -188,4 +188,49 @@ footer {
 footer p {
     color: white;
     margin-top: 30px;
+}
+
+/*BLOG PAGE*/
+/*image section*/
+.blogpost-img-container {
+    padding: 0 50px 40px;
+}
+.blogpost-img-container img {
+    width: 100%;
+}
+
+/*blog post section*/
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+.blogpost-main-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+}
+.blogpost-main-container article h1 {
+    font-size: 35px;
+}
+/*contacts section*/
+.contact-main-container {
+    width: 100%;
+    min-height: 250px;
+    background-color: #e6e9ed;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+.contact-main-container div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.contact-main-container .contact-left, .contact-right{
+    text-align: initial;
+    margin-top: 85px;
+}
+.contact-main-container img {
+    width: 100px;
 }
